@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    
+    <!-- Title & Basic Meta -->
+    <title>Piyush &amp; Bhumika — Wedding Invitation | 25.11.2026</title>
+    <meta name="description" content="Late Smt. Dayawati &amp; Late Sh. Balram Singh Kasana solicit your gracious presence on the auspicious occasion of the wedding ceremony of their beloved grandson Piyush with Bhumika on Wednesday, 25 November 2026 at Jaypee Residency Manor, Mussoorie." />
+    <meta name="theme-color" content="#1B362A" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+    <!-- Open Graph / WhatsApp Preview Meta Tags -->
+    <meta property="og:site_name" content="Piyush &amp; Bhumika Wedding Invitation" />
+    <meta property="og:title" content="Piyush &amp; Bhumika — Wedding Invitation" />
+    <meta property="og:description" content="Late Smt. Dayawati &amp; Late Sh. Balram Singh Kasana solicit your gracious presence at the wedding ceremony of Piyush &amp; Bhumika on Wednesday, 25 November 2026 at Jaypee Residency Manor, Mussoorie." />
+    <meta property="og:image" content="external/media.invitestory.in/saga-of-love/og-image.jpg" />
+    <meta property="og:image:secure_url" content="external/media.invitestory.in/saga-of-love/og-image.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Piyush &amp; Bhumika Wedding Invitation — 25 November 2026" />
+    <meta property="og:url" content="https://invitestory123.github.io/piyush-bhumika/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Piyush &amp; Bhumika — Wedding Invitation" />
+    <meta name="twitter:description" content="Wedding celebration of Piyush &amp; Bhumika on 25 November 2026 at Jaypee Residency Manor, Mussoorie." />
+    <meta name="twitter:image" content="external/media.invitestory.in/saga-of-love/og-image.jpg" />
+
+    <!-- Editable Wedding Data Layer -->
+    <script src="./editable/wedding-data.js"></script>
+    <script type="module" crossorigin src="assets/index-CwGDgeeH.js"></script>
+    <link rel="stylesheet" crossorigin href="assets/styles-CyopAWIO.css">
+
+    <style>
+      footer p {
+        white-space: pre-line;
+      }
+
+      /* Floating Music Toggle Controller */
+      #music-toggle {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 9999;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background: rgba(27, 54, 42, 0.88);
+        border: 1.5px solid rgba(228, 201, 126, 0.85);
+        box-shadow: 0 4px 18px rgba(0, 0, 0, 0.28), 0 0 12px rgba(228, 201, 126, 0.3);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        padding: 0;
+        color: #e4c97e;
+        transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+        -webkit-tap-highlight-color: transparent;
+      }
+      #music-toggle:hover {
+        transform: scale(1.08);
+        border-color: #ffd88a;
+        box-shadow: 0 6px 22px rgba(0, 0, 0, 0.35), 0 0 16px rgba(228, 201, 126, 0.5);
+      }
+      #music-toggle:active {
+        transform: scale(0.94);
+      }
+      #music-toggle .music-icon-playing {
+        display: none;
+        animation: musicDiscSpin 4s linear infinite;
+      }
+      #music-toggle .music-icon-paused {
+        display: block;
+      }
+      #music-toggle.playing .music-icon-playing {
+        display: block;
+      }
+      #music-toggle.playing .music-icon-paused {
+        display: none;
+      }
+      @keyframes musicDiscSpin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- Background Music Player -->
+    <audio id="wedding-audio" loop preload="auto" src="./editable/assets/bgm.mp3"></audio>
+
+    <!-- Floating Music Toggle Controller -->
+    <button id="music-toggle" class="music-toggle-btn" aria-label="Toggle background music" title="Toggle background music">
+      <svg class="music-icon-playing" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M9 18V5l12-2v13"></path>
+        <circle cx="6" cy="18" r="3" fill="currentColor"></circle>
+        <circle cx="18" cy="16" r="3" fill="currentColor"></circle>
+      </svg>
+      <svg class="music-icon-paused" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M9 18V5l12-2v13"></path>
+        <circle cx="6" cy="18" r="3"></circle>
+        <circle cx="18" cy="16" r="3"></circle>
+        <line x1="2" y1="2" x2="22" y2="22"></line>
+      </svg>
+    </button>
+
+    <script>
+      (function() {
+        function initMusic() {
+          var audio = document.getElementById('wedding-audio');
+          var toggle = document.getElementById('music-toggle');
+          if (!audio || !toggle) return;
+
+          if (window.WEDDING_DATA && window.WEDDING_DATA.bgm && window.WEDDING_DATA.bgm.src) {
+            audio.src = window.WEDDING_DATA.bgm.src;
+          }
+
+          var hasInteracted = false;
+
+          function updateState() {
+            if (!audio.paused) {
+              toggle.classList.add('playing');
+              toggle.setAttribute('aria-label', 'Pause background music');
+              toggle.title = 'Pause background music';
+            } else {
+              toggle.classList.remove('playing');
+              toggle.setAttribute('aria-label', 'Play background music');
+              toggle.title = 'Play background music';
+            }
+          }
+
+          function playMusic() {
+            var promise = audio.play();
+            if (promise !== undefined) {
+              promise.then(function() {
+                hasInteracted = true;
+                updateState();
+              }).catch(function(err) {
+                console.log('Autoplay waiting for user gesture:', err);
+              });
+            }
+          }
+
+          toggle.addEventListener('click', function(e) {
+            e.stopPropagation();
+            if (audio.paused) {
+              playMusic();
+            } else {
+              audio.pause();
+              updateState();
+            }
+          });
+
+          // Trigger playback upon user interaction (such as clicking "Open the invitation")
+          function onFirstInteraction() {
+            if (!hasInteracted && audio.paused) {
+              playMusic();
+            }
+          }
+
+          document.addEventListener('click', onFirstInteraction, { passive: true });
+          document.addEventListener('touchstart', onFirstInteraction, { passive: true });
+
+          audio.addEventListener('play', updateState);
+          audio.addEventListener('pause', updateState);
+        }
+
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', initMusic);
+        } else {
+          initMusic();
+        }
+      })();
+    </script>
+  </body>
+</html>
