@@ -17,8 +17,8 @@ Edit `couple` in `editable/wedding-data.js`:
 
 ### Invitation Wording
 Edit `invite` in `editable/wedding-data.js`:
-- `kicker`: Header line ("Late Smt. Dayawati & Late Sh. Balram Singh Kasana")
-- `line`: Invitation line
+- `kicker`: Header line on the door cover and hero section (left blank per customer request)
+- `line`: Invitation line in hero section (left blank per customer request)
 
 ### Wedding Ceremony & Countdown
 Edit `event` in `editable/wedding-data.js`:
@@ -26,7 +26,7 @@ Edit `event` in `editable/wedding-data.js`:
 - `startsAt` & `endsAt`: ISO timestamps (`"2026-11-25T11:00:00+05:30"`). Directly drives the live countdown timer.
 - `dateLabel`: `"25 . 11 . 2026"`
 - `dayLabel`: `"Wednesday"`
-- `timeLabel`: `"Baraat Chadhat at 11:00 AM"`
+- `timeLabel`: `"11:00 AM"`
 - `note`: Subtitle or note
 
 ### Venue & Map
@@ -36,11 +36,20 @@ Edit `venue` in `editable/wedding-data.js`:
 - `mapsQuery`: Search query for Google Maps link
 - `lat` / `lng`: GPS coordinates for directions
 
-### Multi-Event Festivities
-Edit `story` array in `editable/wedding-data.js`:
-- Lagan Sagai Ceremony: 21 November 2026 at Bhagmalpuram, Chi-2, Greater Noida
-- Wedding Ceremony: 25 November 2026 at Jaypee Residency Manor, Mussoorie
-- Reception: 01 December 2026 at The Weddings Dot, Dadri
+### The Wedding Card (Replaces Itinerary)
+Edit `weddingCard` in `editable/wedding-data.js`:
+- `subtitle`: `"OFFICIAL WEDDING INVITATION"`
+- `title`: `"THE WEDDING CARD"`
+- `buttonText`: `"VIEW ORIGINAL SCANNED CARD"` (opens modal displaying the scanned card)
+- `scannedCardImage`: `"./editable/assets/card-invitation.jpg"`
+- `shlokaTop` & `shlokaBottom`: Sanskrit Ganesh shlokas
+- `grandparentsKicker` & `grandparentsNames`: Blessings of grandparents
+- `hosts`: Host couple names
+- `inviteLine`: Invitation phrasing
+- `occasion`: `"Wedding Festivities"`
+- `relationLine`: `"of their daughter"`
+- `bride` & `brideParents`: Bride name and parents
+- `groom` & `groomParents`: Groom name and parents
 
 ### Background Music (BGM)
 - Audio file located at `editable/assets/bgm.mp3`

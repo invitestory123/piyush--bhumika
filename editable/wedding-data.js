@@ -1,6 +1,6 @@
 /**
  * wedding-data.js — Customer-facing editable data layer for saga-of-love
- * Edit this file to update couple names, dates, events, itinerary, venue, blessing, and contacts.
+ * Edit this file to update couple names, dates, events, venue, wedding card, blessing, and contacts.
  */
 
 window.WEDDING_DATA = {
@@ -13,8 +13,8 @@ window.WEDDING_DATA = {
   },
 
   invite: {
-    kicker: "Late Smt. Dayawati & Late Sh. Balram Singh Kasana",
-    line: "solicit your gracious presence on the auspicious occasion of the wedding ceremony of their beloved grandson Piyush with Bhumika",
+    kicker: "",
+    line: "",
   },
 
   event: {
@@ -23,7 +23,7 @@ window.WEDDING_DATA = {
     endsAt: "2026-11-25T16:00:00+05:30",
     dateLabel: "25 . 11 . 2026",
     dayLabel: "Wednesday",
-    timeLabel: "Baraat Chadhat at 11:00 AM",
+    timeLabel: "11:00 AM",
     dressCode: "Traditional Wedding Attire",
     note: "Reception to follow on Tuesday, 01 December 2026",
   },
@@ -36,26 +36,25 @@ window.WEDDING_DATA = {
     lng: 78.0742,
   },
 
-  story: [
-    {
-      year: "21 November 2026",
-      title: "LAGAN SAGAI CEREMONY",
-      text: "Lagan Sagai: 05:00 PM · Dinner: 06:00 PM\nVenue: Bhagmalpuram, Chi-2, Greater Noida",
-      image: "story-2",
-    },
-    {
-      year: "25 November 2026",
-      title: "WEDDING CEREMONY",
-      text: "Baraat Chadhat: 11:00 AM\nVenue: Jaypee Residency Manor, Mussoorie, U.K.",
-      image: "story-1",
-    },
-    {
-      year: "01 December 2026",
-      title: "RECEPTION",
-      text: "Dinner: 07:00 PM Onwards\nVenue: (Hall Darbar) The Weddings Dot, Opp. Sparsh Global School, Noida Greater Noida Link Road, Dadri",
-      image: "story-3",
-    },
-  ],
+  weddingCard: {
+    subtitle: "OFFICIAL WEDDING INVITATION",
+    title: "THE WEDDING CARD",
+    buttonText: "VIEW ORIGINAL SCANNED CARD",
+    scannedCardImage: "./editable/assets/card-invitation.jpg",
+    shlokaTop: "विघ्न हरण मंगल करन श्री गणपति महाराज ।",
+    shlokaBottom: "प्रथम निमंत्रण आपको पूरन करियो काज ॥",
+    grandparentsKicker: "With the blessings of Grandparents",
+    grandparentsNames: "Late Smt. Kusum Lata & Late Sh. Satyapal Poswal",
+    hosts: "Deepanjali Nagar & Vijay Nagar",
+    inviteLine: "request the pleasure of your company on the auspicious occasion of the",
+    occasion: "Wedding Festivities",
+    relationLine: "of their daughter",
+    bride: "Bhumika",
+    brideParents: "(D/o Late Mr. Kuldeep Poswal & Anita Poswal)",
+    withWord: "with",
+    groom: "Piyush",
+    groomParents: "(S/o Mr. Harish Kasana & Madhu Kasana)",
+  },
 
   blessing: {
     line: "विघ्न हरण मंगल करण, श्री गणपति महाराज । प्रथम निमंत्रण आपको, पूर्ण कीजें काज ॥",
@@ -65,19 +64,15 @@ window.WEDDING_DATA = {
 
   footer: {
     families: `With Blessings & Best Compliments From:
+Late Smt. Kusum Lata & Late Sh. Satyapal Poswal
 Late Smt. Dayawati & Late Sh. Balram Singh Kasana
 
-Piyush (Son of Mrs. Madhu Kasana & Mr. Harish Kasana)
-WITH
-Bhumika (Daughter of Mrs. Anita Poswal & Late Mr. Kuldeep Poswal)
-& Beloved Niece of Mrs Deepanjali Nagar & Mr. Vijay Nagar (Residence: Dehradun)
-
-A Cordial Invitation From:
+Deepanjali Nagar & Vijay Nagar
 Mr. Satish Kasana & Mr. Harish Kasana
-Address: Bhagmalpuram, Chi-2, Greater Noida
+Bhagmalpuram, Chi-2, Greater Noida
 M: +91 98101 70905, +91 99119 66888
 
-R.S.V.P. — Entire Kasana Family`,
+R.S.V.P. — Entire Kasana & Nagar Families`,
     contacts: [
       { name: "Mr. Satish Kasana", phone: "+91 98101 70905" },
       { name: "Mr. Harish Kasana", phone: "+91 99119 66888" },
@@ -94,8 +89,7 @@ R.S.V.P. — Entire Kasana Family`,
     gatePanel: "./editable/assets/gate-panel.webp",
     mapPreview: "./editable/assets/map-preview.webp",
     footerFloral: "./editable/assets/footer-floral.webp",
-    story1: "./editable/assets/story-1.webp",
-    story2: "./editable/assets/story-2.webp",
-    story3: "./editable/assets/story-3.webp",
+    scannedCard: "./editable/assets/card-invitation.jpg",
+    ganeshaIcon: "./editable/assets/ganesha-icon.png",
   },
 };
