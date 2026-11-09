@@ -1,6 +1,6 @@
-# Customer Editing Guide — Bhumika & Piyush (Bride Side Invitation)
+# Customer Editing Guide — Piyush & Bhumika (saga-of-love)
 
-This invitation is tailored for the bride's side (**Bhumika & Piyush**), featuring floral motifs, royal archways, live countdown, the official wedding card with modal viewer, multi-event directions for all wedding venues, Vedic Ganesh blessing, interactive RSVP contact cards with Call and WhatsApp buttons, and a clean family footer.
+This invitation features floral motifs, royal archways, live countdown, the official wedding card with modal viewer, multi-event directions for all wedding venues, Vedic blessing quote, interactive RSVP contact cards with Call and WhatsApp buttons, and family footer.
 
 ---
 
@@ -9,11 +9,11 @@ This invitation is tailored for the bride's side (**Bhumika & Piyush**), featuri
 All routine customer edits are configured in:
 → `editable/wedding-data.js`
 
-### Couple Information (Bride Side)
+### Couple Information
 Edit `couple` in `editable/wedding-data.js`:
-- `bride` & `brideShort`: `"Bhumika"`
 - `groom` & `groomShort`: `"Piyush"`
-- `hashtag`: `"#BHUMIKAANDPIYUSH"`
+- `bride` & `brideShort`: `"Bhumika"`
+- `hashtag`: `"#PIYUSHANDBHUMIKA"`
 
 ### Invitation Wording
 Edit `invite` in `editable/wedding-data.js`:
@@ -26,7 +26,7 @@ Edit `event` in `editable/wedding-data.js`:
 - `startsAt` & `endsAt`: ISO timestamps (`"2026-11-25T11:00:00+05:30"`). Directly drives the live countdown timer.
 - `dateLabel`: `"25 . 11 . 2026"`
 - `dayLabel`: `"Wednesday"`
-- `timeLabel`: `"11:00 AM"`
+- `timeLabel`: `""` (time removed from countdown per customer request)
 - `note`: Subtitle or note
 
 ### Multiple Event Venues & Directions
@@ -42,20 +42,17 @@ Edit `weddingCard` in `editable/wedding-data.js`:
 - `title`: `"THE WEDDING CARD"`
 - `buttonText`: `"VIEW ORIGINAL SCANNED CARD"` (opens modal displaying the scanned card)
 - `scannedCardImage`: `"./editable/assets/card-invitation.jpg"`
-- `shlokaTop` & `shlokaBottom`: Sanskrit Ganesh shlokas
-- `grandparentsKicker` & `grandparentsNames`: Blessings of grandparents
-- `hosts`: Host couple names (*Deepanjali Nagar & Vijay Nagar*)
-- `inviteLine`: Invitation phrasing
-- `occasion`: `"Wedding Festivities"`
-- `relationLine`: `"of their daughter"`
-- `bride` & `brideParents`: Bride name and parents (*Bhumika*, *D/o Late Mr. Kuldeep Poswal & Anita Poswal*)
-- `groom` & `groomParents`: Groom name and parents (*Piyush*, *S/o Mr. Harish Kasana & Madhu Kasana*)
+- `shlokaHeader`: `"॥ श्री गणेशाय नमः ॥"`
+- `shlokaLine1` & `shlokaLine2`: Sanskrit Ganesh shlokas
+- `grandparents`: Blessings of grandparents (*Late Smt. Dayawati & Late Sh. Balram Singh Kasana*)
+- `inviteLine`: Invitation phrasing (*Solicit your gracious presence...*)
+- `groom` & `groomParents`: Groom name and parents (*Piyush*, *Son of Mrs. Madhu Kasana & Mr. Harish Kasana*)
+- `withWord`: `"WITH"`
+- `bride` & `brideParents`: Bride name and parents (*Bhumika*, *Daughter of Mrs. Anita Poswal & Late Mr. Kuldeep Poswal*)
+- `brideRelation`: Niece relation (*and (Beloved Niece of Mrs Deepanjali Nagar & Mr. Vijay Nagar) (Residence : Dehradun)*)
 
-### Sacred Blessing & Vedic Shloka
+### Sacred Blessing
 Edit `blessing` in `editable/wedding-data.js`:
-- `title`: `"॥ श्री गणेशाय नमः ॥"`
-- `shloka1`: `"वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ ।"`
-- `shloka2`: `"निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा ॥"`
 - `quote`: `"May your intentions be one, may your hearts beat as one."`
 - `translation`: `"Two families, one thread of gold — and a lifetime of happiness made luminous together."`
 - `source`: `"A BLESSING FROM BOTH FAMILIES"`
@@ -63,14 +60,14 @@ Edit `blessing` in `editable/wedding-data.js`:
 ### Interactive RSVP
 Edit `rsvp` in `editable/wedding-data.js`:
 - `contacts`: Array of contact cards with `name`, `phone`, `phoneLink` (`tel:...`), and `whatsappLink` (`https://wa.me/...`):
-  - Ajay Nagar (+91 98110 68888)
-  - Sandeep Poswal (+91 97566 00111)
+  - SATISH KASANA (+91 99119 66888)
+  - HARISH KASANA (+91 98101 70905)
 
 ### Footer
 Edit `footer` in `editable/wedding-data.js`:
-- `coupleTitle`: `"BHUMIKA & PIYUSH"`
+- `coupleTitle`: `"PIYUSH & BHUMIKA"`
 - `message`: `"With love & warm wishes from both the families"`
-- `hashtag`: `"#BHUMIKAANDPIYUSH"`
+- `hashtag`: `"#PIYUSHANDBHUMIKA"`
 - `instagramText`: `"FOLLOW @INVITESTORY.IN ON INSTAGRAM"`
 
 ### Background Music (BGM)

@@ -1,15 +1,15 @@
 /**
  * wedding-data.js — Customer-facing editable data layer for saga-of-love
- * Bride side invitation configuration: Bhumika & Piyush
+ * Groom & Bride: Piyush & Bhumika
  */
 
 window.WEDDING_DATA = {
   couple: {
-    bride: "Bhumika",
-    brideShort: "Bhumika",
     groom: "Piyush",
     groomShort: "Piyush",
-    hashtag: "#BHUMIKAANDPIYUSH",
+    bride: "Bhumika",
+    brideShort: "Bhumika",
+    hashtag: "#PIYUSHANDBHUMIKA",
   },
 
   invite: {
@@ -23,7 +23,7 @@ window.WEDDING_DATA = {
     endsAt: "2026-11-25T16:00:00+05:30",
     dateLabel: "25 . 11 . 2026",
     dayLabel: "Wednesday",
-    timeLabel: "11:00 AM",
+    timeLabel: "",
     dressCode: "Traditional Wedding Attire",
     note: "Reception to follow on Tuesday, 01 December 2026",
   },
@@ -72,25 +72,20 @@ window.WEDDING_DATA = {
     title: "THE WEDDING CARD",
     buttonText: "VIEW ORIGINAL SCANNED CARD",
     scannedCardImage: "./editable/assets/card-invitation.jpg",
-    shlokaTop: "विघ्न हरण मंगल करन श्री गणपति महाराज ।",
-    shlokaBottom: "प्रथम निमंत्रण आपको पूरन करियो काज ॥",
-    grandparentsKicker: "With the blessings of Grandparents",
-    grandparentsNames: "Late Smt. Kusum Lata & Late Sh. Satyapal Poswal",
-    hosts: "Deepanjali Nagar & Vijay Nagar",
-    inviteLine: "request the pleasure of your company on the auspicious occasion of the",
-    occasion: "Wedding Festivities",
-    relationLine: "of their daughter",
-    bride: "Bhumika",
-    brideParents: "(D/o Late Mr. Kuldeep Poswal & Anita Poswal)",
-    withWord: "with",
+    shlokaHeader: "॥ श्री गणेशाय नमः ॥",
+    shlokaLine1: "वक्रतुण्ड महाकाय, सूर्यकोटि समप्रभः ।",
+    shlokaLine2: "निर्विघ्नं कुरु मे देव, सर्व कार्येषु सर्वदा ॥",
+    grandparents: "Late Smt. Dayawati & Late Sh. Balram Singh Kasana",
+    inviteLine: "Solicit your gracious presence on the auspicious occasion of the wedding ceremony of their beloved Grand Son",
     groom: "Piyush",
-    groomParents: "(S/o Mr. Harish Kasana & Madhu Kasana)",
+    groomParents: "(Son of Mrs. Madhu Kasana & Mr. Harish Kasana)",
+    withWord: "WITH",
+    bride: "Bhumika",
+    brideParents: "(Daughter of Mrs. Anita Poswal & Late Mr. Kuldeep Poswal)",
+    brideRelation: "and\n(Beloved Niece of Mrs Deepanjali Nagar & Mr. Vijay Nagar)\n(Residence : Dehradun)",
   },
 
   blessing: {
-    title: "॥ श्री गणेशाय नमः ॥",
-    shloka1: "वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ ।",
-    shloka2: "निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा ॥",
     quote: "May your intentions be one, may your hearts beat as one.",
     translation: "Two families, one thread of gold — and a lifetime of happiness made luminous together.",
     source: "A BLESSING FROM BOTH FAMILIES",
@@ -102,24 +97,24 @@ window.WEDDING_DATA = {
     subtitle: "We look forward to celebrating with you. For any queries or assistance, please reach out to:",
     contacts: [
       {
-        name: "Ajay Nagar",
-        phone: "98110 68888",
-        phoneLink: "tel:+919811068888",
-        whatsappLink: "https://wa.me/919811068888",
+        name: "SATISH KASANA",
+        phone: "99119 66888",
+        phoneLink: "tel:+919911966888",
+        whatsappLink: "https://wa.me/919911966888",
       },
       {
-        name: "Sandeep Poswal",
-        phone: "97566 00111",
-        phoneLink: "tel:+919756600111",
-        whatsappLink: "https://wa.me/919756600111",
+        name: "HARISH KASANA",
+        phone: "98101 70905",
+        phoneLink: "tel:+919810170905",
+        whatsappLink: "https://wa.me/919810170905",
       },
     ],
   },
 
   footer: {
-    coupleTitle: "BHUMIKA & PIYUSH",
+    coupleTitle: "PIYUSH & BHUMIKA",
     message: "With love & warm wishes from both the families",
-    hashtag: "#BHUMIKAANDPIYUSH",
+    hashtag: "#PIYUSHANDBHUMIKA",
     instagram: "https://www.instagram.com/invitestory.in/",
     instagramText: "FOLLOW @INVITESTORY.IN ON INSTAGRAM",
   },
@@ -131,5 +126,7 @@ window.WEDDING_DATA = {
     footerFloral: "./editable/assets/footer-floral.webp",
     scannedCard: "./editable/assets/card-invitation.jpg",
     ganeshaIcon: "./editable/assets/ganesha-icon.png",
+    groomIcon: "./editable/assets/groom-icon.png",
+    brideIcon: "./editable/assets/bride-icon.png",
   },
 };
