@@ -169,5 +169,7 @@ window.WEDDING_DATA = {
     ganeshaIcon: "./editable/assets/ganesha-icon.png",
     groomIcon: "./editable/assets/groom-icon.png",
     brideIcon: "./editable/assets/bride-icon.png",
+    ogImage: "./editable/assets/og-image.jpg",
+    ogImageSquare: "./editable/assets/og-image-square.jpg",
   },
 };
