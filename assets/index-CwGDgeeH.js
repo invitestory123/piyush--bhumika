@@ -41,32 +41,36 @@ Smt. Pankaja A.R., Sri Manjunath P.H. & Family`,contacts:_wf.contacts||[{name:`S
         ]})
       })
     ]}),
-    (0,M.jsx)(V_,{delay:.15,className:`mx-auto mt-9 max-w-lg sm:max-w-xl`,children:
-      (0,M.jsx)(`div`,{className:`relative rounded-[2.5rem] border-2 border-[#d6c2a4] bg-[#fbf8f2] p-2.5 sm:p-3.5 shadow-[0_24px_50px_-20px_rgba(27,54,42,0.22)]`,children:
-        (0,M.jsxs)(`div`,{className:`relative rounded-[2rem] border border-[#d6c2a4]/70 bg-gradient-to-b from-[#fbf8f3] via-[#f7f2e9] to-[#efe7d8] px-4 py-8 sm:px-8 sm:py-10 text-center overflow-hidden shadow-inner`,children:[
-          (0,M.jsx)(`div`,{className:`pointer-events-none absolute top-3 left-3 size-1.5 rotate-45 bg-[#967d54]/60`}),
-          (0,M.jsx)(`div`,{className:`pointer-events-none absolute top-3 right-3 size-1.5 rotate-45 bg-[#967d54]/60`}),
-          (0,M.jsx)(`div`,{className:`pointer-events-none absolute bottom-3 left-3 size-1.5 rotate-45 bg-[#967d54]/60`}),
-          (0,M.jsx)(`div`,{className:`pointer-events-none absolute bottom-3 right-3 size-1.5 rotate-45 bg-[#967d54]/60`}),
+    (0,M.jsx)(V_,{delay:.15,className:`mx-auto mt-10 max-w-xl sm:max-w-2xl`,children:
+      (0,M.jsx)(`div`,{className:`relative rounded-[2.5rem] border-2 border-[#d6c2a4] bg-[#fbf8f2] p-3 sm:p-4 shadow-[0_24px_50px_-20px_rgba(27,54,42,0.22)]`,children:
+        (0,M.jsxs)(`div`,{className:`relative rounded-[2rem] border border-[#d6c2a4]/70 bg-gradient-to-b from-[#fbf8f3] via-[#f7f2e9] to-[#efe7d8] px-6 py-12 sm:px-12 sm:py-16 text-center overflow-hidden shadow-inner`,children:[
+          (0,M.jsx)(`div`,{className:`pointer-events-none absolute top-3.5 left-3.5 size-1.5 rotate-45 bg-[#967d54]/60`}),
+          (0,M.jsx)(`div`,{className:`pointer-events-none absolute top-3.5 right-3.5 size-1.5 rotate-45 bg-[#967d54]/60`}),
+          (0,M.jsx)(`div`,{className:`pointer-events-none absolute bottom-3.5 left-3.5 size-1.5 rotate-45 bg-[#967d54]/60`}),
+          (0,M.jsx)(`div`,{className:`pointer-events-none absolute bottom-3.5 right-3.5 size-1.5 rotate-45 bg-[#967d54]/60`}),
           (0,M.jsx)(`p`,{className:`font-serif text-sm sm:text-base text-gold tracking-widest font-semibold`,children:wc.shlokaHeader||`॥ श्री गणेशाय नमः ॥`}),
-          (0,M.jsxs)(`div`,{className:`mt-2 font-serif text-[0.82rem] sm:text-[0.9rem] leading-relaxed text-[#2a2520]`,children:[
+          (0,M.jsxs)(`div`,{className:`mt-4 sm:mt-5 font-serif text-[0.88rem] sm:text-base leading-loose text-[#2a2520] space-y-2 sm:space-y-2.5`,children:[
             (0,M.jsx)(`p`,{children:wc.shlokaLine1||`वक्रतुण्ड महाकाय, सूर्यकोटि समप्रभः ।`}),
-            (0,M.jsx)(`p`,{className:`mt-0.5`,children:wc.shlokaLine2||`निर्विघ्नं कुरु मे देव, सर्व कार्येषु सर्वदा ॥`})
+            (0,M.jsx)(`p`,{children:wc.shlokaLine2||`निर्विघ्नं कुरु मे देव, सर्व कार्येषु सर्वदा ॥`})
           ]}),
-          (0,M.jsx)(`div`,{className:`mx-auto my-3 w-16 h-px bg-gold/40`}),
-          (0,M.jsx)(`p`,{className:`font-serif font-bold text-sm sm:text-base text-[#1c1814] tracking-wide`,children:wc.grandparents||`Late Smt. Dayawati & Late Sh. Balram Singh Kasana`}),
-          (0,M.jsx)(`p`,{className:`mx-auto mt-2 max-w-md font-display italic text-xs sm:text-[0.85rem] text-[#4a423a] leading-relaxed`,children:wc.inviteLine||`Solicit your gracious presence on the auspicious occasion of the wedding ceremony of their beloved Grand Son`}),
-          (0,M.jsxs)(`div`,{className:`relative mt-6 flex items-center justify-center gap-2 sm:gap-4`,children:[
-            (0,M.jsx)(`img`,{src:`./editable/assets/groom-icon.png`,alt:`Groom`,className:`hidden sm:block h-36 w-auto object-contain opacity-90`}),
+          (0,M.jsx)(`div`,{className:`mx-auto my-7 sm:my-9 w-24 h-px bg-gold/50`}),
+          (0,M.jsx)(`p`,{className:`font-serif font-bold text-base sm:text-lg text-[#1c1814] tracking-wider leading-relaxed px-4`,children:wc.grandparents||`Late Smt. Dayawati & Late Sh. Balram Singh Kasana`}),
+          (0,M.jsx)(`p`,{className:`mx-auto mt-5 sm:mt-6 max-w-md font-display italic text-sm sm:text-[0.95rem] text-[#4a423a] leading-loose px-4`,children:wc.inviteLine||`Solicit your gracious presence on the auspicious occasion of the wedding ceremony of their beloved Grand Son`}),
+          (0,M.jsxs)(`div`,{className:`relative mt-10 sm:mt-12 flex items-center justify-center gap-3 sm:gap-6`,children:[
+            (0,M.jsx)(`img`,{src:`./editable/assets/groom-icon.png`,alt:`Groom`,className:`hidden sm:block h-44 w-auto object-contain opacity-90`}),
             (0,M.jsxs)(`div`,{className:`flex-1 max-w-sm text-center`,children:[
-              (0,M.jsx)(`p`,{className:`font-script font-display italic text-4xl sm:text-5xl text-[#1a1714] font-semibold leading-tight`,children:wc.groom||`Piyush`}),
-              (0,M.jsx)(`p`,{className:`mt-1 text-xs text-[#3a342e] font-serif`,children:wc.groomParents||`(Son of Mrs. Madhu Kasana & Mr. Harish Kasana)`}),
-              (0,M.jsx)(`p`,{className:`my-3 font-display tracking-[0.25em] text-xs text-[#736657] uppercase font-semibold`,children:wc.withWord||`WITH`}),
-              (0,M.jsx)(`p`,{className:`font-script font-display italic text-4xl sm:text-5xl text-[#1a1714] font-semibold leading-tight`,children:wc.bride||`Bhumika`}),
-              (0,M.jsx)(`p`,{className:`mt-1 text-xs text-[#3a342e] font-serif`,children:wc.brideParents||`(Daughter of Mrs. Anita Poswal & Late Mr. Kuldeep Poswal)`}),
-              (0,M.jsx)(`p`,{className:`mt-1 text-xs text-[#4a423a] font-serif italic whitespace-pre-line leading-relaxed`,children:wc.brideRelation||`and\n(Beloved Niece of Mrs Deepanjali Nagar & Mr. Vijay Nagar)\n(Residence : Dehradun)`})
+              (0,M.jsx)(`p`,{className:`font-script font-display italic text-5xl sm:text-6xl text-[#1a1714] font-semibold leading-relaxed tracking-wide`,children:wc.groom||`Piyush`}),
+              (0,M.jsx)(`p`,{className:`mt-3 sm:mt-3.5 text-xs sm:text-sm text-[#3a342e] font-serif tracking-wide leading-relaxed`,children:wc.groomParents||`(Son of Mrs. Madhu Kasana & Mr. Harish Kasana)`}),
+              (0,M.jsxs)(`div`,{className:`my-6 sm:my-8 flex items-center justify-center gap-3`,children:[
+                (0,M.jsx)(`div`,{className:`h-px w-8 bg-gold/40`}),
+                (0,M.jsx)(`p`,{className:`font-display tracking-[0.3em] text-xs sm:text-sm text-[#736657] uppercase font-semibold`,children:wc.withWord||`WITH`}),
+                (0,M.jsx)(`div`,{className:`h-px w-8 bg-gold/40`})
+              ]}),
+              (0,M.jsx)(`p`,{className:`font-script font-display italic text-5xl sm:text-6xl text-[#1a1714] font-semibold leading-relaxed tracking-wide`,children:wc.bride||`Bhumika`}),
+              (0,M.jsx)(`p`,{className:`mt-3 sm:mt-3.5 text-xs sm:text-sm text-[#3a342e] font-serif tracking-wide leading-relaxed`,children:wc.brideParents||`(Daughter of Mrs. Anita Poswal & Late Mr. Kuldeep Poswal)`}),
+              (0,M.jsx)(`p`,{className:`mt-4 sm:mt-5 text-xs sm:text-sm text-[#4a423a] font-serif italic whitespace-pre-line leading-loose`,children:wc.brideRelation||`and\n(Beloved Niece of Mrs Deepanjali Nagar & Mr. Vijay Nagar)\n(Residence : Dehradun)`})
             ]}),
-            (0,M.jsx)(`img`,{src:`./editable/assets/bride-icon.png`,alt:`Bride`,className:`hidden sm:block h-36 w-auto object-contain opacity-90`})
+            (0,M.jsx)(`img`,{src:`./editable/assets/bride-icon.png`,alt:`Bride`,className:`hidden sm:block h-44 w-auto object-contain opacity-90`})
           ]})
         ]})
       })
@@ -76,7 +80,8 @@ Smt. Pankaja A.R., Sri Manjunath P.H. & Family`,contacts:_wf.contacts||[{name:`S
       (0,M.jsx)($.img,{initial:{scale:.9,opacity:0},animate:{scale:1,opacity:1},exit:{scale:.92,opacity:0},transition:{duration:.3},src:wc.scannedCardImage||`./editable/assets/card-invitation.jpg`,alt:`Original Scanned Wedding Card`,className:`max-h-[85svh] w-auto rounded-2xl border-2 border-gold/60 object-contain shadow-2xl`,onClick:e=>e.stopPropagation()})
     ]})})
   ]});
-}var q_=(...e)=>e.filter((e,t,n)=>!!e&&e.trim()!==``&&n.indexOf(e)===t).join(` `).trim(),J_=e=>e.replace(/([a-z0-9])([A-Z])/g,`$1-$2`).toLowerCase(),Y_=e=>e.replace(/^([A-Z])|[\s-_]+(\w)/g,(e,t,n)=>n?n.toUpperCase():t.toLowerCase()),X_=e=>{let t=Y_(e);return t.charAt(0).toUpperCase()+t.slice(1)},Z_={xmlns:`http://www.w3.org/2000/svg`,width:24,height:24,viewBox:`0 0 24 24`,fill:`none`,stroke:`currentColor`,strokeWidth:2,strokeLinecap:`round`,strokeLinejoin:`round`},Q_=e=>{for(let t in e)if(t.startsWith(`aria-`)||t===`role`||t===`title`)return!0;return!1},$_=(0,b.forwardRef)(({color:e=`currentColor`,size:t=24,strokeWidth:n=2,absoluteStrokeWidth:r,className:i=``,children:a,iconNode:o,...s},c)=>(0,b.createElement)(`svg`,{ref:c,...Z_,width:t,height:t,stroke:e,strokeWidth:r?Number(n)*24/Number(t):n,className:q_(`lucide`,i),...!a&&!Q_(s)&&{"aria-hidden":`true`},...s},[...o.map(([e,t])=>(0,b.createElement)(e,t)),...Array.isArray(a)?a:[a]])),ev=(e,t)=>{let n=(0,b.forwardRef)(({className:n,...r},i)=>(0,b.createElement)($_,{ref:i,iconNode:t,className:q_(`lucide-${J_(X_(e))}`,`lucide-${e}`,n),...r}));return n.displayName=X_(e),n},tv=ev(`calendar-plus`,[[`path`,{d:`M16 19h6`,key:`xwg31i`}],[`path`,{d:`M16 2v4`,key:`4m81vk`}],[`path`,{d:`M19 16v6`,key:`tddt3s`}],[`path`,{d:`M21 12.598V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8.5`,key:`1glfrc`}],[`path`,{d:`M3 10h18`,key:`8toen8`}],[`path`,{d:`M8 2v4`,key:`1cmpym`}]]),nv=ev(`clock`,[[`circle`,{cx:`12`,cy:`12`,r:`10`,key:`1mglay`}],[`path`,{d:`M12 6v6l4 2`,key:`mmk7yg`}]]),rv=ev(`map-pin`,[[`path`,{d:`M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0`,key:`1r0f0z`}],[`circle`,{cx:`12`,cy:`10`,r:`3`,key:`ilqhr7`}]]),iv=ev(`navigation`,[[`polygon`,{points:`3 11 22 2 13 21 11 13 3 11`,key:`1ltx0t`}]]),av=ev(`shirt`,[[`path`,{d:`M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z`,key:`1wgbhj`}]]),ov=ev(`x`,[[`path`,{d:`M18 6 6 18`,key:`1bl5f8`}],[`path`,{d:`m6 6 12 12`,key:`d8bk6v`}]]);function sv(){
+}
+var q_=(...e)=>e.filter((e,t,n)=>!!e&&e.trim()!==``&&n.indexOf(e)===t).join(` `).trim(),J_=e=>e.replace(/([a-z0-9])([A-Z])/g,`$1-$2`).toLowerCase(),Y_=e=>e.replace(/^([A-Z])|[\s-_]+(\w)/g,(e,t,n)=>n?n.toUpperCase():t.toLowerCase()),X_=e=>{let t=Y_(e);return t.charAt(0).toUpperCase()+t.slice(1)},Z_={xmlns:`http://www.w3.org/2000/svg`,width:24,height:24,viewBox:`0 0 24 24`,fill:`none`,stroke:`currentColor`,strokeWidth:2,strokeLinecap:`round`,strokeLinejoin:`round`},Q_=e=>{for(let t in e)if(t.startsWith(`aria-`)||t===`role`||t===`title`)return!0;return!1},$_=(0,b.forwardRef)(({color:e=`currentColor`,size:t=24,strokeWidth:n=2,absoluteStrokeWidth:r,className:i=``,children:a,iconNode:o,...s},c)=>(0,b.createElement)(`svg`,{ref:c,...Z_,width:t,height:t,stroke:e,strokeWidth:r?Number(n)*24/Number(t):n,className:q_(`lucide`,i),...!a&&!Q_(s)&&{"aria-hidden":`true`},...s},[...o.map(([e,t])=>(0,b.createElement)(e,t)),...Array.isArray(a)?a:[a]])),ev=(e,t)=>{let n=(0,b.forwardRef)(({className:n,...r},i)=>(0,b.createElement)($_,{ref:i,iconNode:t,className:q_(`lucide-${J_(X_(e))}`,`lucide-${e}`,n),...r}));return n.displayName=X_(e),n},tv=ev(`calendar-plus`,[[`path`,{d:`M16 19h6`,key:`xwg31i`}],[`path`,{d:`M16 2v4`,key:`4m81vk`}],[`path`,{d:`M19 16v6`,key:`tddt3s`}],[`path`,{d:`M21 12.598V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8.5`,key:`1glfrc`}],[`path`,{d:`M3 10h18`,key:`8toen8`}],[`path`,{d:`M8 2v4`,key:`1cmpym`}]]),nv=ev(`clock`,[[`circle`,{cx:`12`,cy:`12`,r:`10`,key:`1mglay`}],[`path`,{d:`M12 6v6l4 2`,key:`mmk7yg`}]]),rv=ev(`map-pin`,[[`path`,{d:`M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0`,key:`1r0f0z`}],[`circle`,{cx:`12`,cy:`10`,r:`3`,key:`ilqhr7`}]]),iv=ev(`navigation`,[[`polygon`,{points:`3 11 22 2 13 21 11 13 3 11`,key:`1ltx0t`}]]),av=ev(`shirt`,[[`path`,{d:`M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z`,key:`1wgbhj`}]]),ov=ev(`x`,[[`path`,{d:`M18 6 6 18`,key:`1bl5f8`}],[`path`,{d:`m6 6 12 12`,key:`d8bk6v`}]]);function sv(){
   let evList = (window.WEDDING_DATA && window.WEDDING_DATA.events) || [
     {
       title: "Wedding Ceremony",
