@@ -156,62 +156,7 @@ Smt. Pankaja A.R., Sri Manjunath P.H. & Family`,contacts:_wf.contacts||[{name:`S
     ))})
   ]});
 }
-var cv=`editable/assets/map-preview.webp`;function lv(){
-  let d = (window.WEDDING_DATA && window.WEDDING_DATA.venues) || [
-    {
-      eventTitle: "Wedding Ceremony",
-      date: "Wednesday, 25 November 2026",
-      time: "11:00 AM",
-      name: "Jaypee Residency Manor",
-      address: "Barlow Ganj, Mussoorie, Uttarakhand",
-      directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=30.4598,78.0742"
-    },
-    {
-      eventTitle: "Lagan Sagai Ceremony",
-      date: "Saturday, 21 November 2026",
-      time: "Lagan Sagai: 05:00 PM · Dinner: 06:00 PM",
-      name: "Bhagmalpuram",
-      address: "Chi-2, Greater Noida, Uttar Pradesh",
-      directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=Bhagmalpuram%2C+Chi-2%2C+Greater+Noida"
-    },
-    {
-      eventTitle: "Reception",
-      date: "Tuesday, 01 December 2026",
-      time: "Dinner: 07:00 PM Onwards",
-      name: "The Weddings Dot (Hall Darbar)",
-      address: "Opp. Sparsh Global School, Noida Greater Noida Link Road, Dadri",
-      directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=The+Weddings+Dot%2C+Opp+Sparsh+Global+School%2C+Dadri"
-    }
-  ];
-  return (0,M.jsx)(`section`,{className:`px-5 py-16`,children:
-    (0,M.jsxs)(V_,{className:`mx-auto max-w-xl text-center`,children:[
-      (0,M.jsx)(`h2`,{className:`font-display text-3xl tracking-[0.14em] text-pine uppercase`,children:`The Venues`}),
-      (0,M.jsx)(`div`,{className:`mx-auto mt-4 w-24 gold-rule`}),
-      (0,M.jsx)(`a`,{href:R_(),target:`_blank`,rel:`noreferrer`,className:`group mt-8 block overflow-hidden rounded-t-[3rem] border border-gold/50 shadow-[0_24px_50px_-40px_var(--color-ink)]`,children:(0,M.jsxs)(`div`,{className:`relative`,children:[
-        (0,M.jsx)(`img`,{src:cv,alt:`Illustrated map`,loading:`lazy`,decoding:`async`,width:900,height:600,className:`h-56 w-full object-cover transition-transform duration-[1.6s] ease-out group-hover:scale-105 sm:h-64`}),
-        (0,M.jsx)(`span`,{className:`absolute inset-0 bg-pine/0 transition-colors group-hover:bg-pine/10`}),
-        (0,M.jsxs)(`span`,{className:`absolute bottom-3 left-1/2 inline-flex -translate-x-1/2 items-center gap-2 rounded-full bg-parchment/90 px-4 py-2 text-[0.6rem] tracking-[0.24em] text-ink/80 uppercase`,children:[(0,M.jsx)(iv,{className:`size-3.5 text-gold`,"aria-hidden":!0}),`Open in maps`]})
-      ]})}),
-      (0,M.jsx)(`div`,{className:`mt-8 space-y-5 text-left`,children:d.map((item, idx)=>(
-        (0,M.jsxs)(`div`,{key:idx,className:`relative overflow-hidden rounded-2xl border border-gold/40 bg-parchment/70 p-5 shadow-sm transition-all hover:border-gold hover:shadow-md`,children:[
-          (0,M.jsxs)(`div`,{className:`flex flex-wrap items-center justify-between gap-2 border-b border-gold/20 pb-2.5`,children:[
-            (0,M.jsx)(`span`,{className:`font-serif text-[0.72rem] tracking-[0.22em] text-gold uppercase font-semibold`,children:item.eventTitle}),
-            (0,M.jsx)(`span`,{className:`text-xs text-ink/60 font-sans`,children:item.date})
-          ]}),
-          (0,M.jsx)(`h3`,{className:`mt-2.5 font-display text-xl sm:text-2xl text-pine font-medium`,children:item.name}),
-          (0,M.jsx)(`p`,{className:`mt-1 text-xs sm:text-sm text-ink/75 leading-relaxed`,children:item.address}),
-          item.time ? (0,M.jsx)(`p`,{className:`mt-1 text-xs text-gold/90 font-medium`,children:`Timing: ` + item.time}) : null,
-          (0,M.jsx)(`div`,{className:`mt-4 pt-1`,children:
-            (0,M.jsxs)(`a`,{href:item.directionsUrl,target:`_blank`,rel:`noreferrer`,className:`inline-flex items-center gap-2 rounded-full border border-gold/60 bg-white/40 px-5 py-2.5 text-[0.65rem] tracking-[0.22em] text-pine uppercase font-medium transition-colors hover:bg-gold/15 active:scale-95`,children:[
-              (0,M.jsx)(iv,{className:`size-3 text-gold`,"aria-hidden":!0}),
-              `Get directions`
-            ]})
-          })
-        ]})
-      ))})
-    ]})
-  });
-}
+var cv=`editable/assets/map-preview.webp`;function lv(){return null;}
 var uv=[{src:`editable/assets/story-2.webp`,alt:`The couple in a lotus garden`},{src:`editable/assets/story-1.webp`,alt:`The couple seated under a golden mandap`},{src:`editable/assets/story-3.webp`,alt:`Mehendi and haldi celebrations`},{src:`editable/assets/hero-arch.webp`,alt:`The couple beneath an ornate golden arch`}];function dv(){let[e,t]=(0,b.useState)(null);return(0,M.jsxs)(`section`,{className:`py-16`,children:[(0,M.jsxs)(V_,{className:`px-5 text-center`,children:[(0,M.jsx)(`h2`,{className:`font-display text-3xl tracking-[0.14em] text-pine uppercase`,children:`Moments`}),(0,M.jsx)(`div`,{className:`mx-auto mt-4 w-24 gold-rule`})]}),(0,M.jsx)(`div`,{className:`mt-9 flex snap-x snap-mandatory gap-4 overflow-x-auto px-5 pb-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden`,children:uv.map((e,n)=>(0,M.jsxs)(`button`,{type:`button`,onClick:()=>t(n),className:`relative w-[72vw] max-w-xs shrink-0 snap-center overflow-hidden rounded-t-[3rem] border border-gold/45 transition-transform duration-300 active:scale-[0.97]`,children:[(0,M.jsx)(`img`,{src:e.src,alt:e.alt,loading:`lazy`,decoding:`async`,width:800,height:800,className:`h-72 w-full object-cover`}),(0,M.jsx)(`span`,{className:`pointer-events-none absolute inset-2 rounded-t-[2.7rem] border border-parchment/40`})]},n))}),(0,M.jsx)(bm,{children:e!==null&&(0,M.jsxs)($.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},onClick:()=>t(null),className:`fixed inset-0 z-50 flex items-center justify-center bg-pine/90 p-5`,children:[(0,M.jsx)(`button`,{type:`button`,"aria-label":`Close`,className:`absolute top-5 right-5 text-parchment`,onClick:()=>t(null),children:(0,M.jsx)(ov,{className:`size-6`})}),(0,M.jsx)($.img,{initial:{scale:.92,opacity:0},animate:{scale:1,opacity:1},exit:{scale:.95,opacity:0},transition:{duration:.35,ease:[.16,1,.3,1]},src:uv[e].src,alt:uv[e].alt,className:`max-h-[80svh] w-auto rounded-t-[3rem] border border-gold/50 object-contain`},e)]})})]})}function fv(){
   let b = (window.WEDDING_DATA && window.WEDDING_DATA.blessing) || {};
   return (0,M.jsx)(`section`,{className:`px-5 py-16`,children:
@@ -274,4 +219,4 @@ function mv(){
       (0,M.jsx)(`a`,{href:`https://www.instagram.com/invitestory.in/`,target:`_blank`,rel:`noreferrer`,className:`mt-3 inline-block text-[10px] uppercase tracking-[0.35em] text-current opacity-70 transition-opacity hover:opacity-100`,children:`Follow @invitestory.in on Instagram`})
     ]})
   ]});
-}var hv=``+new URL(`lotus-lCFuqOQX.webp`,import.meta.url).href,gv=Array.from({length:8},(e,t)=>({left:(t*13+t%3*4)%94,size:10+t*5%12,dur:22+t*5%16,delay:-(t*3.6),drift:(t%2==0?1:-1)*(30+t*11%70),opacity:.14+t%3*.05}));function _v(){return(0,M.jsx)(`div`,{"aria-hidden":!0,className:`pointer-events-none fixed inset-0 z-30 overflow-hidden`,children:gv.map((e,t)=>(0,M.jsx)(`img`,{src:hv,alt:``,loading:`lazy`,decoding:`async`,className:`petal absolute top-0`,style:{left:`${e.left}%`,width:e.size,height:e.size,opacity:e.opacity,"--dur":`${e.dur}s`,"--delay":`${e.delay}s`,"--drift":`${e.drift}px`}},t))})}function vv(){let{scrollYProgress:e}=o_(),t=m_(e,{stiffness:120,damping:30,mass:.4});return(0,M.jsx)($.div,{"aria-hidden":!0,style:{scaleX:t},className:`fixed inset-x-0 top-0 z-50 h-[2px] origin-left bg-gold`})}var{couple:yv,event:bv,venue:xv}=v_,Sv=`${yv.brideShort} & ${yv.groomShort} — Wedding Invitation`,Cv=`${yv.bride} and ${yv.groom} invite you to their wedding on ${bv.dateLabel} at ${xv.name}, ${xv.address}.`,wv=Fr(`/`)({head:()=>({meta:[{title:Sv},{name:`description`,content:Cv},{property:`og:title`,content:Sv},{property:`og:description`,content:Cv},{property:`og:type`,content:`website`},{property:`og:url`,content:`/`},{name:`twitter:card`,content:`summary_large_image`}],links:[{rel:`canonical`,href:`/`}],scripts:[{type:`application/ld+json`,children:JSON.stringify({"@context":`https://schema.org`,"@type":`Event`,name:bv.title,startDate:bv.startsAt,endDate:bv.endsAt,eventAttendanceMode:`https://schema.org/OfflineEventAttendanceMode`,location:{"@type":`Place`,name:xv.name,address:xv.address}})}]}),component:Tv});function Tv(){return(0,M.jsx)(k_,{children:(0,M.jsxs)(`main`,{className:`relative bg-parchment`,children:[(0,M.jsx)(vv,{}),(0,M.jsx)(_v,{}),(0,M.jsx)(N_,{}),(0,M.jsx)(U_,{}),(0,M.jsx)(K_,{}),(0,M.jsx)(sv,{}),(0,M.jsx)(lv,{}),(0,M.jsx)(dv,{}),(0,M.jsx)(fv,{}),(0,M.jsx)(mv,{}),(0,M.jsx)(Ia,{position:`top-center`})]})})}var Ev={IndexRoute:wv.update({id:`/`,path:`/`,getParentRoute:()=>aa})},Dv=aa._addFileChildren(Ev)._addFileTypes(),Ov=()=>Qr({routeTree:Dv,context:{queryClient:new Qi},scrollRestoration:!0,defaultPreloadStaleTime:0}),kv=new Qi,Av=Ov(),jv=document.getElementById(`root`);jv&&(0,ta.createRoot)(jv).render((0,M.jsx)(b.StrictMode,{children:(0,M.jsx)(ea,{client:kv,children:(0,M.jsx)(ti,{router:Av})})}));export{p as n,u as r,En as t};
+}var hv=``+new URL(`lotus-lCFuqOQX.webp`,import.meta.url).href,gv=Array.from({length:8},(e,t)=>({left:(t*13+t%3*4)%94,size:10+t*5%12,dur:22+t*5%16,delay:-(t*3.6),drift:(t%2==0?1:-1)*(30+t*11%70),opacity:.14+t%3*.05}));function _v(){return(0,M.jsx)(`div`,{"aria-hidden":!0,className:`pointer-events-none fixed inset-0 z-30 overflow-hidden`,children:gv.map((e,t)=>(0,M.jsx)(`img`,{src:hv,alt:``,loading:`lazy`,decoding:`async`,className:`petal absolute top-0`,style:{left:`${e.left}%`,width:e.size,height:e.size,opacity:e.opacity,"--dur":`${e.dur}s`,"--delay":`${e.delay}s`,"--drift":`${e.drift}px`}},t))})}function vv(){let{scrollYProgress:e}=o_(),t=m_(e,{stiffness:120,damping:30,mass:.4});return(0,M.jsx)($.div,{"aria-hidden":!0,style:{scaleX:t},className:`fixed inset-x-0 top-0 z-50 h-[2px] origin-left bg-gold`})}var{couple:yv,event:bv,venue:xv}=v_,Sv=`${yv.brideShort} & ${yv.groomShort} — Wedding Invitation`,Cv=`${yv.bride} and ${yv.groom} invite you to their wedding on ${bv.dateLabel} at ${xv.name}, ${xv.address}.`,wv=Fr(`/`)({head:()=>({meta:[{title:Sv},{name:`description`,content:Cv},{property:`og:title`,content:Sv},{property:`og:description`,content:Cv},{property:`og:type`,content:`website`},{property:`og:url`,content:`/`},{name:`twitter:card`,content:`summary_large_image`}],links:[{rel:`canonical`,href:`/`}],scripts:[{type:`application/ld+json`,children:JSON.stringify({"@context":`https://schema.org`,"@type":`Event`,name:bv.title,startDate:bv.startsAt,endDate:bv.endsAt,eventAttendanceMode:`https://schema.org/OfflineEventAttendanceMode`,location:{"@type":`Place`,name:xv.name,address:xv.address}})}]}),component:Tv});function Tv(){return(0,M.jsx)(k_,{children:(0,M.jsxs)(`main`,{className:`relative bg-parchment`,children:[(0,M.jsx)(vv,{}),(0,M.jsx)(_v,{}),(0,M.jsx)(N_,{}),(0,M.jsx)(U_,{}),(0,M.jsx)(K_,{}),(0,M.jsx)(sv,{}),(0,M.jsx)(dv,{}),(0,M.jsx)(fv,{}),(0,M.jsx)(mv,{}),(0,M.jsx)(Ia,{position:`top-center`})]})})}var Ev={IndexRoute:wv.update({id:`/`,path:`/`,getParentRoute:()=>aa})},Dv=aa._addFileChildren(Ev)._addFileTypes(),Ov=()=>Qr({routeTree:Dv,context:{queryClient:new Qi},scrollRestoration:!0,defaultPreloadStaleTime:0}),kv=new Qi,Av=Ov(),jv=document.getElementById(`root`);jv&&(0,ta.createRoot)(jv).render((0,M.jsx)(b.StrictMode,{children:(0,M.jsx)(ea,{client:kv,children:(0,M.jsx)(ti,{router:Av})})}));export{p as n,u as r,En as t};

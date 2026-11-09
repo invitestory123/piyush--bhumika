@@ -40,12 +40,7 @@ Edit `events` array in `editable/wedding-data.js` to configure the arched event 
 - `calendarUrl`: Google Calendar event URL for `"Add to calendar"` button
 - `directionsUrl`: Google Maps directions URL for `"Directions"` button
 
-### Multiple Event Venues & Directions
-Edit `venues` array in `editable/wedding-data.js`:
-- **Wedding Ceremony**: Jaypee Residency Manor, Barlow Ganj, Mussoorie
-- **Lagan Sagai Ceremony**: Bhagmalpuram, Chi-2, Greater Noida
-- **Reception**: The Weddings Dot (Hall Darbar), Opp. Sparsh Global School, Noida Greater Noida Link Road, Dadri
-Each entry includes `eventTitle`, `date`, `time`, `name`, `address`, and `directionsUrl` (which powers the `Get directions` button for Google Maps).
+*(Note: The separate standalone "The Venues" map section was removed as all venue details and direction links are directly integrated into each event's card above).*
 
 ### The Wedding Card (Replaces Itinerary)
 Edit `weddingCard` in `editable/wedding-data.js`:
