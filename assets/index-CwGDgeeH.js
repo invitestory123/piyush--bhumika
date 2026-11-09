@@ -54,19 +54,19 @@ Smt. Pankaja A.R., Sri Manjunath P.H. & Family`,contacts:_wf.contacts||[{name:`S
             (0,M.jsx)(`p`,{children:wc.shlokaLine2||`निर्विघ्नं कुरु मे देव, सर्व कार्येषु सर्वदा ॥`})
           ]}),
           (0,M.jsx)(`div`,{className:`mx-auto my-7 sm:my-9 w-24 h-px bg-gold/50`}),
-          (0,M.jsx)(`p`,{className:`font-serif font-bold text-base sm:text-lg text-[#1c1814] tracking-wider leading-relaxed px-4`,children:wc.grandparents||`Late Smt. Dayawati & Late Sh. Balram Singh Kasana`}),
+          (0,M.jsx)(`p`,{className:`font-serif font-bold text-lg sm:text-xl text-[#1c1814] tracking-wider leading-relaxed px-4`,style:{fontSize:`clamp(1.15rem, 3.2vw, 1.45rem)`},children:wc.grandparents||`Late Smt. Dayawati & Late Sh. Balram Singh Kasana`}),
           (0,M.jsx)(`p`,{className:`mx-auto mt-5 sm:mt-6 max-w-md font-display italic text-sm sm:text-[0.95rem] text-[#4a423a] leading-loose px-4`,children:wc.inviteLine||`Solicit your gracious presence on the auspicious occasion of the wedding ceremony of their beloved Grand Son`}),
           (0,M.jsxs)(`div`,{className:`relative mt-10 sm:mt-12 flex items-center justify-center gap-3 sm:gap-6`,children:[
             (0,M.jsx)(`img`,{src:`./editable/assets/groom-icon.png`,alt:`Groom`,className:`hidden sm:block h-44 w-auto object-contain opacity-90`}),
             (0,M.jsxs)(`div`,{className:`flex-1 max-w-sm text-center`,children:[
-              (0,M.jsx)(`p`,{className:`font-script font-display italic text-5xl sm:text-6xl text-[#1a1714] font-semibold leading-relaxed tracking-wide`,children:wc.groom||`Piyush`}),
+              (0,M.jsx)(`p`,{className:`wedding-card-couple-name font-script font-display italic text-5xl sm:text-6xl text-[#1a1714] font-semibold leading-relaxed tracking-wide`,style:{fontFamily:`'Alex Brush', 'Cormorant Garamond', cursive, serif`,fontSize:`clamp(3.5rem, 8.5vw, 5.5rem)`,lineHeight:1.15,color:`#1a1714`},children:wc.groom||`Piyush`}),
               (0,M.jsx)(`p`,{className:`mt-3 sm:mt-3.5 text-xs sm:text-sm text-[#3a342e] font-serif tracking-wide leading-relaxed`,children:wc.groomParents||`(Son of Mrs. Madhu Kasana & Mr. Harish Kasana)`}),
               (0,M.jsxs)(`div`,{className:`my-6 sm:my-8 flex items-center justify-center gap-3`,children:[
                 (0,M.jsx)(`div`,{className:`h-px w-8 bg-gold/40`}),
                 (0,M.jsx)(`p`,{className:`font-display tracking-[0.3em] text-xs sm:text-sm text-[#736657] uppercase font-semibold`,children:wc.withWord||`WITH`}),
                 (0,M.jsx)(`div`,{className:`h-px w-8 bg-gold/40`})
               ]}),
-              (0,M.jsx)(`p`,{className:`font-script font-display italic text-5xl sm:text-6xl text-[#1a1714] font-semibold leading-relaxed tracking-wide`,children:wc.bride||`Bhumika`}),
+              (0,M.jsx)(`p`,{className:`wedding-card-couple-name font-script font-display italic text-5xl sm:text-6xl text-[#1a1714] font-semibold leading-relaxed tracking-wide`,style:{fontFamily:`'Alex Brush', 'Cormorant Garamond', cursive, serif`,fontSize:`clamp(3.5rem, 8.5vw, 5.5rem)`,lineHeight:1.15,color:`#1a1714`},children:wc.bride||`Bhumika`}),
               (0,M.jsx)(`p`,{className:`mt-3 sm:mt-3.5 text-xs sm:text-sm text-[#3a342e] font-serif tracking-wide leading-relaxed`,children:wc.brideParents||`(Daughter of Mrs. Anita Poswal & Late Mr. Kuldeep Poswal)`}),
               (0,M.jsx)(`p`,{className:`mt-4 sm:mt-5 text-xs sm:text-sm text-[#4a423a] font-serif italic whitespace-pre-line leading-loose`,children:wc.brideRelation||`and\n(Beloved Niece of Mrs Deepanjali Nagar & Mr. Vijay Nagar)\n(Residence : Dehradun)`})
             ]}),
