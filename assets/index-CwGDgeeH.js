@@ -84,6 +84,18 @@ Smt. Pankaja A.R., Sri Manjunath P.H. & Family`,contacts:_wf.contacts||[{name:`S
 var q_=(...e)=>e.filter((e,t,n)=>!!e&&e.trim()!==``&&n.indexOf(e)===t).join(` `).trim(),J_=e=>e.replace(/([a-z0-9])([A-Z])/g,`$1-$2`).toLowerCase(),Y_=e=>e.replace(/^([A-Z])|[\s-_]+(\w)/g,(e,t,n)=>n?n.toUpperCase():t.toLowerCase()),X_=e=>{let t=Y_(e);return t.charAt(0).toUpperCase()+t.slice(1)},Z_={xmlns:`http://www.w3.org/2000/svg`,width:24,height:24,viewBox:`0 0 24 24`,fill:`none`,stroke:`currentColor`,strokeWidth:2,strokeLinecap:`round`,strokeLinejoin:`round`},Q_=e=>{for(let t in e)if(t.startsWith(`aria-`)||t===`role`||t===`title`)return!0;return!1},$_=(0,b.forwardRef)(({color:e=`currentColor`,size:t=24,strokeWidth:n=2,absoluteStrokeWidth:r,className:i=``,children:a,iconNode:o,...s},c)=>(0,b.createElement)(`svg`,{ref:c,...Z_,width:t,height:t,stroke:e,strokeWidth:r?Number(n)*24/Number(t):n,className:q_(`lucide`,i),...!a&&!Q_(s)&&{"aria-hidden":`true`},...s},[...o.map(([e,t])=>(0,b.createElement)(e,t)),...Array.isArray(a)?a:[a]])),ev=(e,t)=>{let n=(0,b.forwardRef)(({className:n,...r},i)=>(0,b.createElement)($_,{ref:i,iconNode:t,className:q_(`lucide-${J_(X_(e))}`,`lucide-${e}`,n),...r}));return n.displayName=X_(e),n},tv=ev(`calendar-plus`,[[`path`,{d:`M16 19h6`,key:`xwg31i`}],[`path`,{d:`M16 2v4`,key:`4m81vk`}],[`path`,{d:`M19 16v6`,key:`tddt3s`}],[`path`,{d:`M21 12.598V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8.5`,key:`1glfrc`}],[`path`,{d:`M3 10h18`,key:`8toen8`}],[`path`,{d:`M8 2v4`,key:`1cmpym`}]]),nv=ev(`clock`,[[`circle`,{cx:`12`,cy:`12`,r:`10`,key:`1mglay`}],[`path`,{d:`M12 6v6l4 2`,key:`mmk7yg`}]]),rv=ev(`map-pin`,[[`path`,{d:`M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0`,key:`1r0f0z`}],[`circle`,{cx:`12`,cy:`10`,r:`3`,key:`ilqhr7`}]]),iv=ev(`navigation`,[[`polygon`,{points:`3 11 22 2 13 21 11 13 3 11`,key:`1ltx0t`}]]),av=ev(`shirt`,[[`path`,{d:`M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z`,key:`1wgbhj`}]]),ov=ev(`x`,[[`path`,{d:`M18 6 6 18`,key:`1bl5f8`}],[`path`,{d:`m6 6 12 12`,key:`d8bk6v`}]]);function sv(){
   let evList = (window.WEDDING_DATA && window.WEDDING_DATA.events) || [
     {
+      title: "Lagan Sagai Ceremony",
+      dateLabel: "21 . 11 . 2026",
+      dayLabel: "Saturday",
+      timeLabel: "5:00 PM Onwards",
+      venueName: "Bhagmalpuram",
+      venueAddress: "Chi-2, Greater Noida, Uttar Pradesh",
+      dressCode: "",
+      note: "",
+      calendarUrl: "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Lagan+Sagai+Ceremony+%E2%80%94+Piyush+%26+Bhumika&dates=20261121T113000Z%2F20261121T163000Z&details=Lagan+Sagai+Ceremony&location=https%3A%2F%2Fmaps.app.goo.gl%2FKQC2dWdGuCnG964r7",
+      directionsUrl: "https://maps.app.goo.gl/KQC2dWdGuCnG964r7"
+    },
+    {
       title: "Wedding Ceremony",
       dateLabel: "25 . 11 . 2026",
       dayLabel: "Wednesday",
@@ -94,18 +106,6 @@ var q_=(...e)=>e.filter((e,t,n)=>!!e&&e.trim()!==``&&n.indexOf(e)===t).join(` `)
       note: "",
       calendarUrl: "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Wedding+Ceremony+%E2%80%94+Piyush+%26+Bhumika&dates=20261125T053000Z%2F20261125T103000Z&details=Wedding+Ceremony&location=Jaypee+Residency+Manor%2C+Barlow+Ganj%2C+Mussoorie%2C+Uttarakhand",
       directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=30.4598,78.0742"
-    },
-    {
-      title: "Lagan Sagai Ceremony",
-      dateLabel: "21 . 11 . 2026",
-      dayLabel: "Saturday",
-      timeLabel: "5:00 PM Onwards",
-      venueName: "Bhagmalpuram",
-      venueAddress: "Chi-2, Greater Noida, Uttar Pradesh",
-      dressCode: "",
-      note: "",
-      calendarUrl: "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Lagan+Sagai+Ceremony+%E2%80%94+Piyush+%26+Bhumika&dates=20261121T113000Z%2F20261121T163000Z&details=Lagan+Sagai+Ceremony&location=Bhagmalpuram%2C+Chi-2%2C+Greater+Noida%2C+Uttar+Pradesh",
-      directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=Bhagmalpuram%2C+Chi-2%2C+Greater+Noida"
     },
     {
       title: "Reception",

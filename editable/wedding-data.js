@@ -29,8 +29,20 @@ window.WEDDING_DATA = {
     note: "", // Reception note removed per customer request
   },
 
-  // Multi-event arched cards (Wedding Ceremony, Lagan Sagai, Reception)
+  // Multi-event arched cards in chronological order (Lagan Sagai, Wedding Ceremony, Reception)
   events: [
+    {
+      title: "Lagan Sagai Ceremony",
+      dateLabel: "21 . 11 . 2026",
+      dayLabel: "Saturday",
+      timeLabel: "5:00 PM Onwards",
+      venueName: "Bhagmalpuram",
+      venueAddress: "Chi-2, Greater Noida, Uttar Pradesh",
+      dressCode: "",
+      note: "",
+      calendarUrl: "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Lagan+Sagai+Ceremony+%E2%80%94+Piyush+%26+Bhumika&dates=20261121T113000Z%2F20261121T163000Z&details=Lagan+Sagai+Ceremony&location=https%3A%2F%2Fmaps.app.goo.gl%2FKQC2dWdGuCnG964r7",
+      directionsUrl: "https://maps.app.goo.gl/KQC2dWdGuCnG964r7",
+    },
     {
       title: "Wedding Ceremony",
       dateLabel: "25 . 11 . 2026",
@@ -42,18 +54,6 @@ window.WEDDING_DATA = {
       note: "",
       calendarUrl: "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Wedding+Ceremony+%E2%80%94+Piyush+%26+Bhumika&dates=20261125T053000Z%2F20261125T103000Z&details=Wedding+Ceremony&location=Jaypee+Residency+Manor%2C+Barlow+Ganj%2C+Mussoorie%2C+Uttarakhand",
       directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=30.4598,78.0742",
-    },
-    {
-      title: "Lagan Sagai Ceremony",
-      dateLabel: "21 . 11 . 2026",
-      dayLabel: "Saturday",
-      timeLabel: "5:00 PM Onwards",
-      venueName: "Bhagmalpuram",
-      venueAddress: "Chi-2, Greater Noida, Uttar Pradesh",
-      dressCode: "",
-      note: "",
-      calendarUrl: "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Lagan+Sagai+Ceremony+%E2%80%94+Piyush+%26+Bhumika&dates=20261121T113000Z%2F20261121T163000Z&details=Lagan+Sagai+Ceremony&location=Bhagmalpuram%2C+Chi-2%2C+Greater+Noida%2C+Uttar+Pradesh",
-      directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=Bhagmalpuram%2C+Chi-2%2C+Greater+Noida",
     },
     {
       title: "Reception",
@@ -72,6 +72,15 @@ window.WEDDING_DATA = {
   // Multiple event venues with Google Maps directions
   venues: [
     {
+      eventTitle: "Lagan Sagai Ceremony",
+      date: "Saturday, 21 November 2026",
+      time: "Lagan Sagai: 05:00 PM · Dinner: 06:00 PM",
+      name: "Bhagmalpuram",
+      address: "Chi-2, Greater Noida, Uttar Pradesh",
+      mapsUrl: "https://maps.app.goo.gl/KQC2dWdGuCnG964r7",
+      directionsUrl: "https://maps.app.goo.gl/KQC2dWdGuCnG964r7",
+    },
+    {
       eventTitle: "Wedding Ceremony",
       date: "Wednesday, 25 November 2026",
       time: "11:00 AM",
@@ -79,15 +88,6 @@ window.WEDDING_DATA = {
       address: "Barlow Ganj, Mussoorie, Uttarakhand",
       mapsUrl: "https://www.google.com/maps/search/?api=1&query=Jaypee+Residency+Manor%2C+Mussoorie",
       directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=30.4598,78.0742",
-    },
-    {
-      eventTitle: "Lagan Sagai Ceremony",
-      date: "Saturday, 21 November 2026",
-      time: "Lagan Sagai: 05:00 PM · Dinner: 06:00 PM",
-      name: "Bhagmalpuram",
-      address: "Chi-2, Greater Noida, Uttar Pradesh",
-      mapsUrl: "https://www.google.com/maps/search/?api=1&query=Bhagmalpuram%2C+Chi-2%2C+Greater+Noida",
-      directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=Bhagmalpuram%2C+Chi-2%2C+Greater+Noida",
     },
     {
       eventTitle: "Reception",

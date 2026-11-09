@@ -30,15 +30,10 @@ Edit `event` in `editable/wedding-data.js`:
 - `note`: Subtitle or note
 
 ### Multi-Event Arched Cards
-Edit `events` array in `editable/wedding-data.js` to configure the arched event cards (Wedding Ceremony, Lagan Sagai Ceremony, Reception):
-- `title`: Name of the event (e.g. `"Wedding Ceremony"`, `"Lagan Sagai Ceremony"`, `"Reception"`)
-- `dateLabel`: Date in bold gold display font (e.g. `"25 . 11 . 2026"`, `"21 . 11 . 2026"`, `"01 . 12 . 2026"`)
-- `dayLabel`: Day of the week (e.g. `"Wednesday"`, `"Saturday"`, `"Tuesday"`)
-- `timeLabel`: Event timing (e.g. `"11:00 AM"`, `"5:00 PM Onwards"`, `"Dinner: 7:00 PM Onwards"`)
-- `venueName`: Name of venue
-- `venueAddress`: Full address
-- `calendarUrl`: Google Calendar event URL for `"Add to calendar"` button
-- `directionsUrl`: Google Maps directions URL for `"Directions"` button
+Edit `events` array in `editable/wedding-data.js` to configure the arched event cards in chronological order (Lagan Sagai Ceremony, Wedding Ceremony, Reception):
+- **1. Lagan Sagai Ceremony**: Saturday, 21 . 11 . 2026, 5:00 PM Onwards at *Bhagmalpuram*, Chi-2, Greater Noida, Uttar Pradesh (Directions: `https://maps.app.goo.gl/KQC2dWdGuCnG964r7`).
+- **2. Wedding Ceremony**: Wednesday, 25 . 11 . 2026, 11:00 AM at *Jaypee Residency Manor*, Barlow Ganj, Mussoorie, Uttarakhand.
+- **3. Reception**: Tuesday, 01 . 12 . 2026, Dinner: 7:00 PM Onwards at *The Weddings Dot (Hall Darbar)*, Opp. Sparsh Global School, Noida Greater Noida Link Road, Dadri.
 
 *(Note: The separate standalone "The Venues" map section was removed as all venue details and direction links are directly integrated into each event's card above).*
 
