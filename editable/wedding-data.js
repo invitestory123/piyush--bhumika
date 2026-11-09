@@ -17,6 +17,7 @@ window.WEDDING_DATA = {
     line: "",
   },
 
+  // Primary event (for countdown timer and meta tags)
   event: {
     title: "Wedding Ceremony",
     startsAt: "2026-11-25T11:00:00+05:30",
@@ -25,8 +26,48 @@ window.WEDDING_DATA = {
     dayLabel: "Wednesday",
     timeLabel: "",
     dressCode: "Traditional Wedding Attire",
-    note: "Reception to follow on Tuesday, 01 December 2026",
+    note: "", // Reception note removed per customer request
   },
+
+  // Multi-event arched cards (Wedding Ceremony, Lagan Sagai, Reception)
+  events: [
+    {
+      title: "Wedding Ceremony",
+      dateLabel: "25 . 11 . 2026",
+      dayLabel: "Wednesday",
+      timeLabel: "11:00 AM",
+      venueName: "Jaypee Residency Manor",
+      venueAddress: "Barlow Ganj, Mussoorie, Uttarakhand",
+      dressCode: "Traditional Wedding Attire",
+      note: "",
+      calendarUrl: "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Wedding+Ceremony+%E2%80%94+Piyush+%26+Bhumika&dates=20261125T053000Z%2F20261125T103000Z&details=Wedding+Ceremony&location=Jaypee+Residency+Manor%2C+Barlow+Ganj%2C+Mussoorie%2C+Uttarakhand",
+      directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=30.4598,78.0742",
+    },
+    {
+      title: "Lagan Sagai Ceremony",
+      dateLabel: "21 . 11 . 2026",
+      dayLabel: "Saturday",
+      timeLabel: "5:00 PM Onwards",
+      venueName: "Bhagmalpuram",
+      venueAddress: "Chi-2, Greater Noida, Uttar Pradesh",
+      dressCode: "",
+      note: "",
+      calendarUrl: "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Lagan+Sagai+Ceremony+%E2%80%94+Piyush+%26+Bhumika&dates=20261121T113000Z%2F20261121T163000Z&details=Lagan+Sagai+Ceremony&location=Bhagmalpuram%2C+Chi-2%2C+Greater+Noida%2C+Uttar+Pradesh",
+      directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=Bhagmalpuram%2C+Chi-2%2C+Greater+Noida",
+    },
+    {
+      title: "Reception",
+      dateLabel: "01 . 12 . 2026",
+      dayLabel: "Tuesday",
+      timeLabel: "Dinner: 7:00 PM Onwards",
+      venueName: "The Weddings Dot (Hall Darbar)",
+      venueAddress: "Opp. Sparsh Global School, Noida Greater Noida Link Road, Dadri",
+      dressCode: "",
+      note: "",
+      calendarUrl: "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Wedding+Reception+%E2%80%94+Piyush+%26+Bhumika&dates=20261201T133000Z%2F20261201T183000Z&details=Wedding+Reception&location=The+Weddings+Dot+%28Hall+Darbar%29%2C+Opp.+Sparsh+Global+School%2C+Noida+Greater+Noida+Link+Road%2C+Dadri",
+      directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=The+Weddings+Dot%2C+Opp+Sparsh+Global+School%2C+Dadri",
+    },
+  ],
 
   // Multiple event venues with Google Maps directions
   venues: [

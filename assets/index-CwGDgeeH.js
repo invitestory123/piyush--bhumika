@@ -76,7 +76,87 @@ Smt. Pankaja A.R., Sri Manjunath P.H. & Family`,contacts:_wf.contacts||[{name:`S
       (0,M.jsx)($.img,{initial:{scale:.9,opacity:0},animate:{scale:1,opacity:1},exit:{scale:.92,opacity:0},transition:{duration:.3},src:wc.scannedCardImage||`./editable/assets/card-invitation.jpg`,alt:`Original Scanned Wedding Card`,className:`max-h-[85svh] w-auto rounded-2xl border-2 border-gold/60 object-contain shadow-2xl`,onClick:e=>e.stopPropagation()})
     ]})})
   ]});
-}var q_=(...e)=>e.filter((e,t,n)=>!!e&&e.trim()!==``&&n.indexOf(e)===t).join(` `).trim(),J_=e=>e.replace(/([a-z0-9])([A-Z])/g,`$1-$2`).toLowerCase(),Y_=e=>e.replace(/^([A-Z])|[\s-_]+(\w)/g,(e,t,n)=>n?n.toUpperCase():t.toLowerCase()),X_=e=>{let t=Y_(e);return t.charAt(0).toUpperCase()+t.slice(1)},Z_={xmlns:`http://www.w3.org/2000/svg`,width:24,height:24,viewBox:`0 0 24 24`,fill:`none`,stroke:`currentColor`,strokeWidth:2,strokeLinecap:`round`,strokeLinejoin:`round`},Q_=e=>{for(let t in e)if(t.startsWith(`aria-`)||t===`role`||t===`title`)return!0;return!1},$_=(0,b.forwardRef)(({color:e=`currentColor`,size:t=24,strokeWidth:n=2,absoluteStrokeWidth:r,className:i=``,children:a,iconNode:o,...s},c)=>(0,b.createElement)(`svg`,{ref:c,...Z_,width:t,height:t,stroke:e,strokeWidth:r?Number(n)*24/Number(t):n,className:q_(`lucide`,i),...!a&&!Q_(s)&&{"aria-hidden":`true`},...s},[...o.map(([e,t])=>(0,b.createElement)(e,t)),...Array.isArray(a)?a:[a]])),ev=(e,t)=>{let n=(0,b.forwardRef)(({className:n,...r},i)=>(0,b.createElement)($_,{ref:i,iconNode:t,className:q_(`lucide-${J_(X_(e))}`,`lucide-${e}`,n),...r}));return n.displayName=X_(e),n},tv=ev(`calendar-plus`,[[`path`,{d:`M16 19h6`,key:`xwg31i`}],[`path`,{d:`M16 2v4`,key:`4m81vk`}],[`path`,{d:`M19 16v6`,key:`tddt3s`}],[`path`,{d:`M21 12.598V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8.5`,key:`1glfrc`}],[`path`,{d:`M3 10h18`,key:`8toen8`}],[`path`,{d:`M8 2v4`,key:`1cmpym`}]]),nv=ev(`clock`,[[`circle`,{cx:`12`,cy:`12`,r:`10`,key:`1mglay`}],[`path`,{d:`M12 6v6l4 2`,key:`mmk7yg`}]]),rv=ev(`map-pin`,[[`path`,{d:`M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0`,key:`1r0f0z`}],[`circle`,{cx:`12`,cy:`10`,r:`3`,key:`ilqhr7`}]]),iv=ev(`navigation`,[[`polygon`,{points:`3 11 22 2 13 21 11 13 3 11`,key:`1ltx0t`}]]),av=ev(`shirt`,[[`path`,{d:`M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z`,key:`1wgbhj`}]]),ov=ev(`x`,[[`path`,{d:`M18 6 6 18`,key:`1bl5f8`}],[`path`,{d:`m6 6 12 12`,key:`d8bk6v`}]]);function sv(){let{event:e,venue:t}=v_;return(0,M.jsxs)(`section`,{className:`relative overflow-hidden px-5 py-20`,children:[(0,M.jsx)(`div`,{"aria-hidden":!0,className:`absolute inset-0 opacity-25`,style:{backgroundImage:`url(${T_})`,backgroundSize:`260px`}}),(0,M.jsx)(`div`,{"aria-hidden":!0,className:`absolute inset-0 bg-parchment/70`}),(0,M.jsx)(V_,{className:`relative mx-auto max-w-md`,children:(0,M.jsxs)(`div`,{className:`relative rounded-t-[9rem] border border-gold/50 bg-parchment px-7 pt-16 pb-10 text-center shadow-[0_30px_60px_-45px_var(--color-ink)] paper-grain`,children:[(0,M.jsx)(`div`,{className:`pointer-events-none absolute inset-x-3 top-3 bottom-3 rounded-t-[8.4rem] border border-gold/30`}),(0,M.jsx)(`p`,{className:`text-[0.62rem] tracking-[0.4em] text-ink/60 uppercase`,children:e.title||`Wedding Ceremony`}),(0,M.jsx)(`p`,{className:`mt-4 font-display text-4xl tracking-[0.12em] text-gold`,children:e.dateLabel}),(0,M.jsx)(`div`,{className:`mx-auto mt-5 w-28 gold-rule`}),(0,M.jsxs)(`ul`,{className:`mt-7 space-y-4 text-sm text-ink/80`,children:[(0,M.jsxs)(`li`,{className:`flex items-center justify-center gap-2`,children:[(0,M.jsx)(nv,{className:`size-4 text-gold`,"aria-hidden":!0}),e.dayLabel,`, `,e.timeLabel]}),(0,M.jsxs)(`li`,{className:`flex items-center justify-center gap-2`,children:[(0,M.jsx)(rv,{className:`size-4 text-gold`,"aria-hidden":!0}),(0,M.jsxs)(`span`,{children:[t.name,(0,M.jsx)(`br`,{}),(0,M.jsx)(`span`,{className:`text-ink/60`,children:t.address})]})]}),(0,M.jsxs)(`li`,{className:`flex items-center justify-center gap-2`,children:[(0,M.jsx)(av,{className:`size-4 text-gold`,"aria-hidden":!0}),e.dressCode]})]}),(0,M.jsx)(`p`,{className:`mt-6 font-display text-lg italic text-ink/65`,children:e.note}),(0,M.jsxs)(`div`,{className:`mt-8 flex flex-col gap-3`,children:[(0,M.jsxs)(`a`,{href:L_(),target:`_blank`,rel:`noreferrer`,className:`group inline-flex items-center justify-center gap-2 rounded-full bg-pine px-6 py-3.5 text-[0.7rem] tracking-[0.24em] text-parchment uppercase transition-transform duration-200 active:scale-95`,children:[(0,M.jsx)(tv,{className:`size-4 transition-transform group-hover:rotate-6`}),`Add to calendar`]}),(0,M.jsx)(`a`,{href:z_(),target:`_blank`,rel:`noreferrer`,className:`rounded-full border border-gold/60 py-3 text-[0.65rem] tracking-[0.2em] text-ink/75 uppercase transition-colors hover:bg-gold/10`,children:`Directions`})]})]})})]})}var cv=`editable/assets/map-preview.webp`;function lv(){
+}var q_=(...e)=>e.filter((e,t,n)=>!!e&&e.trim()!==``&&n.indexOf(e)===t).join(` `).trim(),J_=e=>e.replace(/([a-z0-9])([A-Z])/g,`$1-$2`).toLowerCase(),Y_=e=>e.replace(/^([A-Z])|[\s-_]+(\w)/g,(e,t,n)=>n?n.toUpperCase():t.toLowerCase()),X_=e=>{let t=Y_(e);return t.charAt(0).toUpperCase()+t.slice(1)},Z_={xmlns:`http://www.w3.org/2000/svg`,width:24,height:24,viewBox:`0 0 24 24`,fill:`none`,stroke:`currentColor`,strokeWidth:2,strokeLinecap:`round`,strokeLinejoin:`round`},Q_=e=>{for(let t in e)if(t.startsWith(`aria-`)||t===`role`||t===`title`)return!0;return!1},$_=(0,b.forwardRef)(({color:e=`currentColor`,size:t=24,strokeWidth:n=2,absoluteStrokeWidth:r,className:i=``,children:a,iconNode:o,...s},c)=>(0,b.createElement)(`svg`,{ref:c,...Z_,width:t,height:t,stroke:e,strokeWidth:r?Number(n)*24/Number(t):n,className:q_(`lucide`,i),...!a&&!Q_(s)&&{"aria-hidden":`true`},...s},[...o.map(([e,t])=>(0,b.createElement)(e,t)),...Array.isArray(a)?a:[a]])),ev=(e,t)=>{let n=(0,b.forwardRef)(({className:n,...r},i)=>(0,b.createElement)($_,{ref:i,iconNode:t,className:q_(`lucide-${J_(X_(e))}`,`lucide-${e}`,n),...r}));return n.displayName=X_(e),n},tv=ev(`calendar-plus`,[[`path`,{d:`M16 19h6`,key:`xwg31i`}],[`path`,{d:`M16 2v4`,key:`4m81vk`}],[`path`,{d:`M19 16v6`,key:`tddt3s`}],[`path`,{d:`M21 12.598V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8.5`,key:`1glfrc`}],[`path`,{d:`M3 10h18`,key:`8toen8`}],[`path`,{d:`M8 2v4`,key:`1cmpym`}]]),nv=ev(`clock`,[[`circle`,{cx:`12`,cy:`12`,r:`10`,key:`1mglay`}],[`path`,{d:`M12 6v6l4 2`,key:`mmk7yg`}]]),rv=ev(`map-pin`,[[`path`,{d:`M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0`,key:`1r0f0z`}],[`circle`,{cx:`12`,cy:`10`,r:`3`,key:`ilqhr7`}]]),iv=ev(`navigation`,[[`polygon`,{points:`3 11 22 2 13 21 11 13 3 11`,key:`1ltx0t`}]]),av=ev(`shirt`,[[`path`,{d:`M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z`,key:`1wgbhj`}]]),ov=ev(`x`,[[`path`,{d:`M18 6 6 18`,key:`1bl5f8`}],[`path`,{d:`m6 6 12 12`,key:`d8bk6v`}]]);function sv(){
+  let evList = (window.WEDDING_DATA && window.WEDDING_DATA.events) || [
+    {
+      title: "Wedding Ceremony",
+      dateLabel: "25 . 11 . 2026",
+      dayLabel: "Wednesday",
+      timeLabel: "11:00 AM",
+      venueName: "Jaypee Residency Manor",
+      venueAddress: "Barlow Ganj, Mussoorie, Uttarakhand",
+      dressCode: "Traditional Wedding Attire",
+      note: "",
+      calendarUrl: "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Wedding+Ceremony+%E2%80%94+Piyush+%26+Bhumika&dates=20261125T053000Z%2F20261125T103000Z&details=Wedding+Ceremony&location=Jaypee+Residency+Manor%2C+Barlow+Ganj%2C+Mussoorie%2C+Uttarakhand",
+      directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=30.4598,78.0742"
+    },
+    {
+      title: "Lagan Sagai Ceremony",
+      dateLabel: "21 . 11 . 2026",
+      dayLabel: "Saturday",
+      timeLabel: "5:00 PM Onwards",
+      venueName: "Bhagmalpuram",
+      venueAddress: "Chi-2, Greater Noida, Uttar Pradesh",
+      dressCode: "",
+      note: "",
+      calendarUrl: "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Lagan+Sagai+Ceremony+%E2%80%94+Piyush+%26+Bhumika&dates=20261121T113000Z%2F20261121T163000Z&details=Lagan+Sagai+Ceremony&location=Bhagmalpuram%2C+Chi-2%2C+Greater+Noida%2C+Uttar+Pradesh",
+      directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=Bhagmalpuram%2C+Chi-2%2C+Greater+Noida"
+    },
+    {
+      title: "Reception",
+      dateLabel: "01 . 12 . 2026",
+      dayLabel: "Tuesday",
+      timeLabel: "Dinner: 7:00 PM Onwards",
+      venueName: "The Weddings Dot (Hall Darbar)",
+      venueAddress: "Opp. Sparsh Global School, Noida Greater Noida Link Road, Dadri",
+      dressCode: "",
+      note: "",
+      calendarUrl: "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Wedding+Reception+%E2%80%94+Piyush+%26+Bhumika&dates=20261201T133000Z%2F20261201T183000Z&details=Wedding+Reception&location=The+Weddings+Dot+%28Hall+Darbar%29%2C+Opp.+Sparsh+Global+School%2C+Noida+Greater+Noida+Link+Road%2C+Dadri",
+      directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=The+Weddings+Dot%2C+Opp+Sparsh+Global+School%2C+Dadri"
+    }
+  ];
+  return (0,M.jsxs)(`section`,{className:`relative overflow-hidden px-5 py-20`,children:[
+    (0,M.jsx)(`div`,{"aria-hidden":!0,className:`absolute inset-0 opacity-25`,style:{backgroundImage:`url(${T_})`,backgroundSize:`260px`}}),
+    (0,M.jsx)(`div`,{"aria-hidden":!0,className:`absolute inset-0 bg-parchment/70`}),
+    (0,M.jsx)(`div`,{className:`relative mx-auto max-w-md space-y-16`,children:evList.map((evItem, idx)=>(
+      (0,M.jsx)(V_,{key:idx,delay:idx*.1,className:`relative mx-auto max-w-md`,children:
+        (0,M.jsxs)(`div`,{className:`relative rounded-t-[9rem] border border-gold/50 bg-parchment px-7 pt-16 pb-10 text-center shadow-[0_30px_60px_-45px_var(--color-ink)] paper-grain`,children:[
+          (0,M.jsx)(`div`,{className:`pointer-events-none absolute inset-x-3 top-3 bottom-3 rounded-t-[8.4rem] border border-gold/30`}),
+          (0,M.jsx)(`p`,{className:`text-[0.62rem] tracking-[0.4em] text-ink/60 uppercase font-medium`,children:evItem.title}),
+          (0,M.jsx)(`p`,{className:`mt-4 font-display text-4xl tracking-[0.12em] text-gold`,children:evItem.dateLabel}),
+          (0,M.jsx)(`div`,{className:`mx-auto mt-5 w-28 gold-rule`}),
+          (0,M.jsxs)(`ul`,{className:`mt-7 space-y-4 text-sm text-ink/80`,children:[
+            (0,M.jsxs)(`li`,{className:`flex items-center justify-center gap-2`,children:[
+              (0,M.jsx)(nv,{className:`size-4 text-gold`,"aria-hidden":!0}),
+              (0,M.jsx)(`span`,{children:evItem.dayLabel + `, ` + evItem.timeLabel})
+            ]}),
+            (0,M.jsxs)(`li`,{className:`flex items-center justify-center gap-2`,children:[
+              (0,M.jsx)(rv,{className:`size-4 text-gold`,"aria-hidden":!0}),
+              (0,M.jsxs)(`span`,{children:[
+                evItem.venueName,
+                (0,M.jsx)(`br`,{}),
+                (0,M.jsx)(`span`,{className:`text-ink/60 text-xs`,children:evItem.venueAddress})
+              ]})
+            ]}),
+            evItem.dressCode ? (0,M.jsxs)(`li`,{className:`flex items-center justify-center gap-2`,children:[
+              (0,M.jsx)(av,{className:`size-4 text-gold`,"aria-hidden":!0}),
+              (0,M.jsx)(`span`,{children:evItem.dressCode})
+            ]}) : null
+          ]}),
+          evItem.note ? (0,M.jsx)(`p`,{className:`mt-6 font-display text-lg italic text-ink/65`,children:evItem.note}) : null,
+          (0,M.jsxs)(`div`,{className:`mt-8 flex flex-col gap-3`,children:[
+            (0,M.jsxs)(`a`,{href:evItem.calendarUrl,target:`_blank`,rel:`noreferrer`,className:`group inline-flex items-center justify-center gap-2 rounded-full bg-pine px-6 py-3.5 text-[0.7rem] tracking-[0.24em] text-parchment uppercase transition-transform duration-200 active:scale-95`,children:[
+              (0,M.jsx)(tv,{className:`size-4 transition-transform group-hover:rotate-6`}),
+              `Add to calendar`
+            ]}),
+            (0,M.jsx)(`a`,{href:evItem.directionsUrl,target:`_blank`,rel:`noreferrer`,className:`rounded-full border border-gold/60 py-3 text-[0.65rem] tracking-[0.2em] text-ink/75 uppercase transition-colors hover:bg-gold/10 active:scale-95`,children:`Directions`})
+          ]})
+        ]})
+      })
+    ))})
+  ]});
+}
+var cv=`editable/assets/map-preview.webp`;function lv(){
   let d = (window.WEDDING_DATA && window.WEDDING_DATA.venues) || [
     {
       eventTitle: "Wedding Ceremony",
