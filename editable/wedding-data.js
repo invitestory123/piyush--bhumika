@@ -171,5 +171,6 @@ window.WEDDING_DATA = {
     brideIcon: "./editable/assets/bride-icon.png",
     ogImage: "./editable/assets/og-image.jpg",
     ogImageSquare: "./editable/assets/og-image-square.jpg",
+    ogLogo: "./editable/assets/og-logo.png",
   },
 };

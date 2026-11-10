@@ -79,7 +79,8 @@ Edit `footer` in `editable/wedding-data.js`:
 ### Open Graph (OG) & Social Sharing Cards
 - Primary Landscape Banner (1200x630): `og-image.jpg` (saved at root `/og-image.jpg`, `editable/assets/og-image.jpg`, `external/media.invitestory.in/saga-of-love/og-image.jpg`, and `assets/og-image.jpg`)
 - Compact Square Card (600x600): `og-image-square.jpg` (saved at root `/og-image-square.jpg`, `editable/assets/og-image-square.jpg`, and `assets/og-image-square.jpg`)
-- Metadata configured with absolute HTTPS preview links, WhatsApp/Facebook `og:image:secure_url`, and Twitter `summary_large_image` cards in both `index.html` and router config.
+- Open Graph Monogram Logo (512x512): `og-logo.png` (`og:logo`, saved at root `/og-logo.png`, `editable/assets/og-logo.png`, `external/media.invitestory.in/saga-of-love/og-logo.png`, and `assets/og-logo.png`)
+- Metadata configured with absolute HTTPS preview links, `og:logo`, WhatsApp/Facebook `og:image:secure_url`, and Twitter `summary_large_image` cards in both `index.html` and router config.
 
 ---
 
