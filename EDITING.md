@@ -1,6 +1,6 @@
 # Customer Editing Guide — Piyush & Bhumika (saga-of-love)
 
-This invitation features floral motifs, royal archways, live countdown, the official wedding card with modal viewer, multi-event directions for all wedding venues, Vedic blessing quote, interactive RSVP contact cards with Call and WhatsApp buttons, and family footer.
+This invitation features floral motifs, royal archways, live countdown, the official wedding card with modal viewer, Lagan Sagai Ceremony directions and calendar card, Vedic blessing quote, interactive RSVP contact cards with Call and WhatsApp buttons, and family footer.
 
 ---
 
@@ -19,23 +19,21 @@ Edit `couple` in `editable/wedding-data.js`:
 Edit `invite` in `editable/wedding-data.js`:
 - `kicker`: Header line on the door cover and hero section (left blank per customer request)
 - `line`: Invitation line in hero section (left blank per customer request)
+- `heroVenue`: Venue line on hero section (left blank per customer markup)
 
-### Wedding Ceremony & Countdown
+### Lagan Sagai Ceremony & Countdown
 Edit `event` in `editable/wedding-data.js`:
-- `title`: Main ceremony title (`"Wedding Ceremony"`)
-- `startsAt` & `endsAt`: ISO timestamps (`"2026-11-25T11:00:00+05:30"`). Directly drives the live countdown timer.
-- `dateLabel`: `"25 . 11 . 2026"`
-- `dayLabel`: `"Wednesday"`
-- `timeLabel`: `""` (time removed from countdown per customer request)
+- `title`: `"Lagan Sagai Ceremony"`
+- `countdownLabel`: `"Counting down to the Lagan Sagai Ceremony"`
+- `startsAt` & `endsAt`: ISO timestamps (`"2026-11-21T17:00:00+05:30"` to `"2026-11-21T22:00:00+05:30"`). Directly drives the live countdown timer.
+- `dateLabel`: `"21 . 11 . 2026"`
+- `dayLabel`: `"Saturday"`
+- `timeLabel`: `"5:00 PM Onwards"`
 - `note`: Subtitle or note
 
-### Multi-Event Arched Cards
-Edit `events` array in `editable/wedding-data.js` to configure the arched event cards in chronological order (Lagan Sagai Ceremony, Wedding Ceremony, Reception):
-- **1. Lagan Sagai Ceremony**: Saturday, 21 . 11 . 2026, 5:00 PM Onwards at *Bhagmalpuram*, Chi-2, Greater Noida, Uttar Pradesh (Directions: `https://maps.app.goo.gl/KQC2dWdGuCnG964r7`).
-- **2. Wedding Ceremony**: Wednesday, 25 . 11 . 2026, 11:00 AM at *Jaypee Residency Manor*, Barlow Ganj, Mussoorie, Uttarakhand.
-- **3. Reception**: Tuesday, 01 . 12 . 2026, Dinner: 7:00 PM Onwards at *The Weddings Dot (Hall Darbar)*, Opp. Sparsh Global School, Noida Greater Noida Link Road, Dadri.
-
-*(Note: The separate standalone "The Venues" map section was removed as all venue details and direction links are directly integrated into each event's card above).*
+### Event Arched Card
+Edit `events` array in `editable/wedding-data.js` (configured for Lagan Sagai Ceremony only):
+- **Lagan Sagai Ceremony**: Saturday, 21 . 11 . 2026, 5:00 PM Onwards at *Bhagmalpuram*, Chi-2, Greater Noida, Uttar Pradesh (Directions: `https://maps.app.goo.gl/KQC2dWdGuCnG964r7`).
 
 ### The Wedding Card (Replaces Itinerary)
 Edit `weddingCard` in `editable/wedding-data.js`:
